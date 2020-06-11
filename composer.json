@@ -1,6 +1,8 @@
 {
-    "type": "project",
-    "license": "proprietary",
+    "name": "gagit/base",
+    "description": "Clases básicas y útiles",
+    "type": "Library",
+    "license": "MIT",
     "require": {
         "php": "^7.2.5",
         "ext-ctype": "*",

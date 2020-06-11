@@ -1,0 +1,41 @@
+{% extends '::base.html.twig' %}
+  
+       {% block stylesheets %} 
+            <link rel="stylesheet" href="{{ asset('bundles/base/css/bootstrap-bl.css') }}" >
+            <link rel="stylesheet" href="{{ asset('bundles/base/css/bootstrap-theme.css.map') }}" >
+            <link rel="stylesheet" href="{{ asset('bundles/base/css/bootstrap-theme.min.css') }}" >
+            <link rel="stylesheet" href="{{ asset('bundles/base/css/bootstrap.min.css') }}" >
+            <link rel="stylesheet" href="{{ asset('bundles/base/css/navbar_custom.css') }}" >
+            <link rel="stylesheet" href="{{ asset('bundles/base/css/styles.css') }}"  type="text/css">
+            <link rel="stylesheet" href="{{ asset('bundles/base/css/main.css') }} " type="text/css" media="all" /> 
+            <link rel="stylesheet" href="{{ asset('bundles/base/css/tablas.css') }} " type="text/css" media="all" /> 
+            <link rel="stylesheet" href="{{ asset('bundles/base/css/jquery-ui-1.10.4.custom.min.css') }} " type="text/css" media="all" /> 
+       {% endblock %}
+       {% block javascripts %}
+            <script src="{{ asset('bundles/base/js/jquery-1.10.2.js') }}"></script>
+            <script src="{{ asset('bundles/base/js/jquery-ui-1.10.4.min.js') }}"></script>
+            <script src="{{ asset('bundles/base/js/bootstrap.min.js') }}"></script>
+       {% endblock %}
+        
+        
+       {% block menu %}
+            {% if app.user %}
+                {% if is_granted('ROLE_ADMIN') %}
+                    {% include 'BaseBundle:Menu:menu_admin.html.twig' %}
+                {% elseif is_granted('ROLE_ADMIN_PLAYA') %}
+                    {% include 'BaseBundle:Menu:menu.html.twig' %}
+                {% elseif is_granted('ROLE_EMPLEADO')%}
+                    {% include 'BaseBundle:Menu:menu_empleados.html.twig' %}               
+                {% endif %}
+            {% endif %}
+                
+       
+       {% endblock %}
+       {% block contenido %}
+       
+       {% endblock %}
+       
+                
+        
+        
+       

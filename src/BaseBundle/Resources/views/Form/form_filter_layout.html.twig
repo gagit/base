@@ -1,0 +1,17 @@
+{% use "BaseBundle:Form:form_div_layout.html.twig" %}
+
+{% block form_row %}
+{% spaceless %}
+        <div class="row ">
+            <div class="col-md-2">
+                {{ form_label(form) }}
+            </div>
+            <div class="col-md-10">
+            {{ form_errors(form) }}
+            {{ form_widget(form) }}
+            </div>
+        </div>
+        <br/>
+{% endspaceless %}
+{% endblock form_row %}
+

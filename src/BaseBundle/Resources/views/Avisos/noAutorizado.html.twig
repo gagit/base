@@ -1,0 +1,29 @@
+{% extends 'BaseBundle::layout.html.twig' %}
+
+{%block titulo %}No Autorizado{%endblock %}
+
+{%block contenido %}
+
+
+<div class="panel-heading">
+    <h4> 
+        <span class="glyphicon glyphicon-remove"></span> Acceso Denegado
+    </h4>
+</div>    
+<div style="font-size: 12px;">
+    <br>
+    <br>
+    <div class="alert alert-danger text-center">
+        <span class="glyphicon glyphicon-remove"></span>
+        Ud. NO tiene permisos asignados para acceder a esta parte del sistema. <br>
+        Si ud. cree que hay un error por favor comuniquese consulte con el Responsable.<br/>
+        
+        <a href="javascript:history.back(-1);" class = "btn btn-danger">
+                   <span class = "glyphicon glyphicon-backward"> </span>   Volver 
+               </a>
+    </div>
+    <br>
+    <br>
+</div>
+
+{%endblock %}

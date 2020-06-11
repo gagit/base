@@ -1,0 +1,19 @@
+.navbar-custom {
+    //background:transparent url(images/OFF.gif) repeat top left;
+   background: -webkit-linear-gradient(#D9EDF7, #f5f5f5);
+   background: -moz-linear-gradient(#D9EDF7, #f5f5f5);
+   background: -o-linear-gradient(#D9EDF7, #f5f5f5);
+   border-color: #BCE8F1;
+   border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#31708F;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}

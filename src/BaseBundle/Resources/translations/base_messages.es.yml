@@ -1,0 +1,25 @@
+#base.titulos.labels.acciones
+base:
+  titulos:
+    labels:
+      acciones: Operaciones
+      listado: Listado de
+      filtros: Filtros
+      agregar_entity: Agregar
+      editar_entity: Editar
+      ver_entity: Ver
+      cerrar_ventana: Cerrar
+  tooltips:
+    labels:
+      tooltip_ver: Click para Ver Datos
+      tooltip_editar: Click para Editar Datos
+      tooltip_nuevo: Click para Grabar Datos
+      tooltip_borrar: Click para Borrar Datos
+      tooltip_volver: Click para volver
+  mensajes:
+    labels:
+      mensaje_grabacion_ok: El grabación se realizó correctamente!!!
+      mensaje_grabacion_error_bd: Error en la Base de datos :(
+      mensaje_grabacion_error_generico: Error :(
+      mensaje_eliminacion_ok: El elemento se eliminó correctamente!!!
+      mensaje_si_confirma_eliminacion: ¿Estas seguro de ELIMIAR el elemento?

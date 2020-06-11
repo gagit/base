@@ -1,0 +1,4 @@
+
+BaseBundle_avisos:
+    resource: "@BaseBundle/Resources/config/routing_avisos.yml"
+    prefix:   /avisos/

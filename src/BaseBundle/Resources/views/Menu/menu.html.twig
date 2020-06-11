@@ -1,0 +1,91 @@
+
+<nav class="navbar navbar-inverse "  role="navigation">
+    
+    
+        <div class="container-fluid" >
+            <div class="navbar-header">
+
+                <button class="navbar-toggle " data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                    <span class="sr-only">Navegación Expandible</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="glyphicon glyphicon-list"></span>
+                </button>
+
+            </div>
+        </div>
+        <div class="collapse navbar-collapse ">           
+            <ul class="nav navbar-nav">
+
+                <li class='has-sub '>
+                    <a href="{{ path('tarifa') }}"><span>Tarifas</span></a>
+                </li>
+                <li  class="dropdown" >
+                    <a href="{{ path('turno_consola') }}" class="dropdown-toggle" data-toggle="dropdown"<span>Turnos</span><b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li >
+                             <a href="{{ path('turno_consola') }}"><span>Consola de Turnos</span></a>
+                        </li>
+                        <li >
+                             <a href="{{ path('turno') }}"><span>Turnos</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='has-sub '>
+                    <a href="{{ path('mensuales') }}"><span>Mensuales</span></a>
+                </li>
+                <li class='has-sub '>
+                    <a href="{{ path('empleado') }}"><span>Personal</span></a>
+                </li>
+                <li class='has-sub '>
+                    <a href="{{ path('rendicion') }}"><span>Rendiciones</span></a>
+                </li>
+                <li class='has-sub '>
+                    <a href="{{ path('tarjeta') }}"><span>Tarjetas</span></a>
+                </li>
+               <li class="">
+                   <a class="" href="{{ path('listado_usuarios') }}">Usuarios</a>
+               </li>
+               <li class="">
+                   <a class="" href="{{ path('facturacionmensual') }}">Facturacion Mensual</a>
+               </li>
+               {#   <li class='has-sub '>
+                        <a href=""><span>Ventas</span></a>
+                </li>
+                <li class='has-sub '>
+                        <a href=""><span>Compras</span></a>
+                </li>
+                -------------------------------------- 
+                <li  class="dropdown" >
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown"<span>Parámetros</span><b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li >
+                             <a href=""><span>Marcas</span></a>
+                        </li>
+                        <li >
+                              <a href=""><span>Categoria</span></a>
+                        </li>                       
+                        <li >
+                            <a href=""><span>Forma Pago</span></a>
+                        </li>
+                        <li >
+                              <a href=""><span>Proveedores</span></a>
+                        </li>
+                        <li >
+                            <a href=""><span>Unidades de Medida</span></a>
+                        </li>
+                    </ul>
+                </li>
+#}
+
+           {#  -------------------------------------- #}
+       </ul>
+   </div>
+
+</nav>
+
+                
+        
+        
+       

@@ -1,0 +1,39 @@
+# Este archivo tiene como raiz el nombre del bundle y
+# luego se van agregando las entities, seguido de la
+# palabra reservada labels y debajo de esta los atributos de las entities
+#
+#tbl_clinica:
+#  area:
+#    labels:
+#      nombre: Nombre
+#      area: Area
+#  especialidadmedica:
+#    labels:
+#      especialidadmedica: Especialidad Medica
+#      nombre: Nombre
+#      descripcion: Descripción
+
+base:
+  titulos:
+    labels:
+      acciones: Operations
+      listado: List of
+      filtros: Filters
+      agregar_entity: Add
+      editar_entity: Edit
+      ver_entity: Show
+      cerrar_ventana: Close
+  tooltips:
+    labels:
+      tooltip_ver: Click to Show
+      tooltip_editar: Click to Edit
+      tooltip_nuevo: Click to Save
+      tooltip_borrar: Click to Delete
+      tooltip_volver: Click to return
+  mensajes:
+    labels:
+      mensaje_grabacion_ok: The entity is saved!!!
+      mensaje_grabacion_error_bd: Error in database :(
+      mensaje_grabacion_error_generico: Error :(
+      mensaje_eliminacion_ok: The delete is ok!!
+      mensaje_si_confirma_eliminacion: Are you sure?

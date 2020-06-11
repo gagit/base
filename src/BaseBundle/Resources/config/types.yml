@@ -1,0 +1,32 @@
+#imports:
+#    - { resource: Controles/services.yml }
+
+parameters:
+#    parametros.example.class: Ministerio\ParametrosBundle\Example
+
+services:
+#    parametros.example:
+#        class: %parametros.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+      type.meses_txt:
+        class: App\BaseBundle\Form\MesesTxtType
+        tags:
+          - { name: form.type, alias: meses_txt }
+      type.tipo_doc:
+        class: App\BaseBundle\Form\TipoDocType
+        tags:
+          - { name: form.type, alias: tipo_doc }
+      type.sexo:
+        class: App\BaseBundle\Form\SexoType
+        tags:
+          - { name: form.type, alias: sexo }
+      type.activo:
+        class: App\BaseBundle\Form\ActivoType
+        tags:
+          - { name: form.type, alias: activo }
+      type.entity_hidden:
+        class: App\BaseBundle\Form\Type\EntityHiddenType
+        arguments: ["@doctrine.orm.entity_manager"]
+        tags:
+          - { name: form.type, alias: entity_hidden }

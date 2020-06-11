@@ -1,0 +1,77 @@
+.tabla
+{
+ width: 800px;
+ margin: 0 auto;
+ border:1px dotted #000;
+ border-style: ridge;
+
+}
+
+.tabla tr.even
+{
+  background-color: #f3fafc;
+}
+
+.tabla tr.odd
+{
+}
+
+.tabla tr:hover
+{
+  
+  background-color: #f3f5d0;
+  
+  /*background-color: #fff;font-weight: bold;
+  background: url(../images/rectanguloGrisVerticalChico2.jpg) repeat;
+  */
+}
+
+.tabla th
+{
+  background-color: #06898f;
+ /* background: url(../images/rectanguloGrisVertical.jpg) repeat;*/
+ font-size: 16px;
+ font-weight: bold;
+ padding: 7px ;
+ background-color: #fff;
+ /*border:3px ridge ;
+ border:1px dotted #5E93B5;*/
+ border:1px dotted #000;
+ border-style: ridge;
+ text-align: center;
+
+}
+.tabla td
+{
+  font-size: 12px;
+  padding: 7px 7px;
+  border-bottom: 1px dotted #999;
+  /*border-bottom: 2px dotted #999;
+  background: url(../images/rectanguloVerdePerlaVerticalChico.jpg) repeat;
+  */
+  
+}
+
+
+.tabla_form{
+    font-size:inherit;font:100%;
+}
+
+.tabla_form th
+{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 7px ;
+  text-align: left;
+
+}
+.tabla_form td
+{
+  font-size: 12px;
+  padding: 7px 7px;
+   /*border-bottom: 1px dotted #999;
+ border-bottom: 2px dotted #999;
+   background: url(../images/rectanguloVerdePerlaVerticalChico.jpg) repeat;
+  */
+  
+}

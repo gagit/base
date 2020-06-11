@@ -1,0 +1,3 @@
+no_autorizado:
+    path:  /no_autorizado
+    defaults: { _controller: BaseBundle:Avisos:noAutorizado }

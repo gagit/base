@@ -1,0 +1,14 @@
+imports:
+    - { resource: types.yml }
+
+parameters:
+#    parametros.example.class: Ministerio\ParametrosBundle\Example
+
+services:
+#    parametros.example:
+#        class: %parametros.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+      utiles:
+        class: App\BaseBundle\Expertos\ExpertoGenerico
+        arguments: ["@service_container"]

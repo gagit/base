@@ -1,0 +1,487 @@
+/*
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+*/
+html, body
+{
+    background-color: #f3fafc;
+    /*background-color: #EFEFEF;*/
+    /*background-color: wheat;*/
+}
+
+body
+{
+    width:        100%;
+    font-size:    14px;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    color:        #313131;
+}
+
+a
+{
+    color:           #08C;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+strong
+{
+    font-weight: bold;
+}
+
+em
+{
+    font-style: italic;
+}
+
+h1, h2, h3
+{
+    font-family:    Georgia, "Times New Roman", Times, serif;
+    color:          #404040;
+}
+
+
+
+h2
+{
+    font-weight:   bold;
+    color:         #000;
+    /* Font is duplicated of body (sans-serif) */
+    font-family:      "Lucida Sans Unicode", "Lucida Grande",
+        Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+
+    margin-bottom:    10px;
+   /* background-color: #aacd4e;*/
+    padding:          2px 4px;
+    display:          inline-block;
+    text-transform:   uppercase;
+
+}
+
+h6
+{
+    text-align: center;
+}
+
+p
+{
+    line-height:    20px;
+    padding-bottom: 20px;
+}
+
+ul#demo-list a
+{
+    background: url(../images/blue-arrow.png) no-repeat right 6px;
+    padding-right: 10px;
+}
+
+ul, ol
+{
+    padding-left: 20px;
+}
+
+li
+{
+    padding-bottom: 18px;
+}
+
+ol li
+{
+    list-style-type: decimal;
+}
+
+ul li
+{
+    list-style-type: none;
+}
+
+.siges-content {
+    
+  width: 100%;
+ /* margin:0 auto 0 auto;
+  text-align: left;
+  */
+    
+}
+
+.siges-content h1
+{
+    font-size:      35px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.pie_general{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabla
+{
+ width: 800px;
+ margin: 0 auto;
+ border:1px dotted #000;
+ border-style: ridge;
+
+}
+
+.tabla tr.even
+{
+  background-color: #f3fafc;
+}
+
+.tabla tr.odd
+{
+}
+
+.tabla tr:hover
+{
+  
+  background-color: #f3f5d0;
+  
+  /*background-color: #fff;font-weight: bold;
+  background: url(../images/rectanguloGrisVerticalChico2.jpg) repeat;
+  */
+}
+
+.tabla th
+{
+  background-color: #06898f;
+ /* background: url(../images/rectanguloGrisVertical.jpg) repeat;*/
+ font-size: 16px;
+ font-weight: bold;
+ padding: 7px ;
+ background-color: #fff;
+ /*border:3px ridge ;
+ border:1px dotted #5E93B5;*/
+ border:1px dotted #000;
+ border-style: ridge;
+ text-align: center;
+
+}
+.tabla td
+{
+  font-size: 12px;
+  padding: 7px 7px;
+  border-bottom: 1px dotted #999;
+  /*border-bottom: 2px dotted #999;
+  background: url(../images/rectanguloVerdePerlaVerticalChico.jpg) repeat;
+  */
+  
+}
+
+
+.tabla_form{
+    font-size:inherit;font:100%;
+}
+
+.tabla_form th
+{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 7px ;
+  text-align: left;
+
+}
+.tabla_form td
+{
+  font-size: 12px;
+  padding: 7px 7px;
+   /*border-bottom: 1px dotted #999;
+ border-bottom: 2px dotted #999;
+   background: url(../images/rectanguloVerdePerlaVerticalChico.jpg) repeat;
+  */
+  
+}
+
+
+.txtGenerico{
+    width: 350px;
+    height: 25px;
+    border: 1px solid #a7b2b5;
+    background: #fff;
+    font-size: 14px;
+
+    border-radius: 2px 2px 2px 2px;
+    -ms-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -khtml-border-radius: 2px 2px 2px 2px;
+
+}
+.txtGenericoGrande{
+    width: 500px;
+    height: 25px;
+    border: 1px solid #a7b2b5;
+    background: #fff;
+    font-size: 14px;
+
+    border-radius: 2px 2px 2px 2px;
+    -ms-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -khtml-border-radius: 2px 2px 2px 2px;
+
+}
+.txtFecha{
+    width: 120px;
+    height: 25px;
+    border: 1px solid #a7b2b5;
+    background: #fff;
+    font-size: 14px;
+
+    border-radius: 2px 2px 2px 2px;
+    -ms-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -khtml-border-radius: 2px 2px 2px 2px;
+
+}
+
+.txtGenericoMini{
+    width: 60px;
+    height: 25px;
+    border: 1px solid #a7b2b5;
+    background: #fff;
+    font-size: 14px;
+
+    border-radius: 2px 2px 2px 2px;
+    -ms-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -khtml-border-radius: 2px 2px 2px 2px;
+
+}
+.txtGenericoMed{
+    width: 120px;
+    height: 25px;
+    border: 1px solid #a7b2b5;
+    background: #fff;
+    font-size: 14px;
+
+    border-radius: 2px 2px 2px 2px;
+    -ms-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -khtml-border-radius: 2px 2px 2px 2px;
+
+}
+.txtAreaGenerico{
+    width: 350px;
+    height:100px;
+    border: 1px solid #a7b2b5;
+    background: #fff;
+    font-size: 14px;
+    border-radius: 2px 2px 2px 2px;
+    -ms-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -khtml-border-radius: 2px 2px 2px 2px;
+}
+.comboGenerico{
+   width:350px;
+   padding-top: 1px;
+   overflow:hidden;
+   /*padding:4px;*/
+   height:25px;
+   /*display:block;
+   background:url(images/HOVER.gif) repeat-x blue;*/
+   color:#000;
+   border: 2px solid #a7b2b5;
+   vertical-align: middle;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   background: #fFF;
+   font-size: 14px;
+
+}
+.comboGenericoMed{
+   width:175px;
+   padding-top: 1px;
+   overflow:hidden;
+   /*padding:4px;*/
+   height:25px;
+   /*display:block;
+   background:url(images/HOVER.gif) repeat-x blue;*/
+   color:#000;
+   border: 2px solid #a7b2b5;
+   vertical-align: middle;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   background: #fFF;
+   font-size: 14px;
+
+}
+.comboGenericoGra{
+   width:300px;
+   padding-top: 1px;
+   overflow:hidden;
+   /*padding:4px;*/
+   height:25px;
+   /*display:block;
+   background:url(images/HOVER.gif) repeat-x blue;*/
+   color:#000;
+   border: 2px solid #a7b2b5;
+   vertical-align: middle;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   background: #fFF;
+   font-size: 14px;
+
+}
+.comboGenericoChico{
+   width:75px;
+   padding-top: 1px;
+   overflow:hidden;
+   /*padding:4px;*/
+   height:25px;
+   /*display:block;
+   background:url(images/HOVER.gif) repeat-x blue;*/
+   color:#000;
+   border: 2px solid #a7b2b5;
+   vertical-align: middle;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   background: #fFF;
+   font-size: 14px;
+
+}
+.comboReadOnly{
+   background: transparent;
+   width:500px;
+   padding-top: 1px;
+   /*overflow:hidden;
+   padding:4px;*/
+   height:25px;
+   /*display:block;
+   background:url(images/HOVER.gif) repeat-x blue;*/
+   color:#000;
+   border: 1px solid #a7b2b5;
+   vertical-align: middle;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:bold;
+   background: #fFF;
+   font-size: 16px;
+   border-radius: 2px 2px 2px 2px;
+    -ms-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -khtml-border-radius: 2px 2px 2px 2px;
+
+}
+
+#header
+{
+    position: relative;
+    padding: 30px 30px 20px 30px;
+    /*background: url(../images/rectanguloGrisVertical.jpg) top repeat-x;*/
+}
+
+.flash-message
+{
+   display:inline-block;
+   vertical-align: middle;
+     
+}
+.flash-error
+{
+   display:inline-block;
+   vertical-align: middle;
+}
+.errores_widget
+{
+    padding: 10px;
+    margin: 5px;
+    margin-top: 55px;
+    font-size: 14px;
+    /*background-color: #ffe;*/
+    background-color: #eb8f8f;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sin_resultado
+{
+  color: red;
+  font: 16px "Lucida Grande", Lucida, Verdana, sans-serif;
+  
+  text-align: center;
+}
+input.botonBuscar {
+	
+        width: 35px;
+        height: 32px;
+        /*text-align: left;*/
+        background: url(../images/buscar.png) no-repeat right;
+}
+
+.espera
+{
+  /**/background-color: #c1cbd9;
+  visibility: hidden;
+  border-radius: 2px 2px 2px 2px;
+    -ms-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -khtml-border-radius: 2px 2px 2px 2px;
+}
+
+.log
+{ 
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+  
+  
+  /*
+  margin-left: 85%;
+  margin:0 auto 0 auto;
+   text-align: right;
+  
+    
+  margin-top: 10px;
+  
+  float: right;*/
+  
+}
+
+.log ul
+{
+    margin:10px;
+    padding:0;
+    list-style-type:none;
+    width:auto;
+    display:block;
+    height:36px;
+   /* text-transform:uppercase;*/
+    float:right;
+    font-size:10px;
+    font-weight:bold;
+    font-family:Helvetica,Arial,Verdana,sans-serif;
+}
+.log ul li
+{
+    vertical-align:middle;
+    display:block;
+    float:left;
+    /*float:right;*/
+}
+.log ul li a
+{
+    position: relative; /* es la posición normal */
+    padding-left: 5px;
+    padding-right: 5px;
+     /*margin-top: -15px;
+   text-decoration: none !important;  forzar sin subrayado */
+}
+.log ul li img
+{
+    margin-top: -4px;
+
+}

@@ -1,7 +1,7 @@
 {
     "name": "gagit/base",
-    "description": "Clases básicas y útiles",
-    "type": "Library",
+    "description": "clases básicas y útiles",
+    "type": "library",
     "license": "MIT",
     "require": {
         "php": "^7.4",
@@ -32,25 +32,14 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "scripts": {
-        "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
-        },
-        "post-install-cmd": [
-            "@auto-scripts"
-        ],
-        "post-update-cmd": [
-            "@auto-scripts"
-        ]
-    },
+
     "conflict": {
         "symfony/symfony": "*"
     },
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "5.1.*"
+            "require": "5.3.*"
         }
     }
 }
